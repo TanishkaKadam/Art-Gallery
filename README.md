@@ -29,13 +29,14 @@ This is a simple Art Gallery website that showcases various art pieces with feat
  ## Installation 
   
    1. Installation :
-        git clone https://github.com/YOUR_USERNAME/Art-Gallery.git
+  ![Screenshot 2025-02-04 124541](https://github.com/user-attachments/assets/a1d1d820-0f83-4dcf-afe6-102e051ff809)  
      
-   3. Navigate to the project folder:
-        cd Art-Gallery
+   3. Navigate to the project folder:    
+  ![Screenshot 2025-02-04 124550](https://github.com/user-attachments/assets/8b527a6f-8f9f-4ec0-80de-6edb10a31372)
 
    5. Open index.html in your browser.   
-    
+   
+
 
 
 ## Usage
@@ -51,7 +52,7 @@ This is a simple Art Gallery website that showcases various art pieces with feat
 ## Project Structure
     
 ![Screenshot 2025-02-04 125014](https://github.com/user-attachments/assets/f20cc02e-f9e5-40a8-abf9-f9bbdd98ccce)
-![Screenshot 2025-02-04 125014](https://github.com/user-attachments/assets/fdd29e1c-5352-4f2c-b330-99829b0feb9c)
+
 
 
 ## Contributing
