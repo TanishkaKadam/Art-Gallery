@@ -49,7 +49,7 @@ This is a simple Art Gallery website that showcases various art pieces with feat
 
 
 ## Project Structure
-    ![Screenshot 2025-02-04 125014](https://github.com/user-attachments/assets/a71b9ef8-7cc7-4de0-a0fc-769d87ddccb3)
+  [Screenshot 2025-02-04 125014](https://github.com/user-attachments/assets/a71b9ef8-7cc7-4de0-a0fc-769d87ddccb3)
 
 
 
