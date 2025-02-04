@@ -29,8 +29,8 @@ This is a simple Art Gallery website that showcases various art pieces with feat
  ## Installation 
   
    1. Installation :
-  ![Screenshot 2025-02-04 124541](https://github.com/user-attachments/assets/a1d1d820-0f83-4dcf-afe6-102e051ff809)  
-     
+  ![Screenshot 2025-02-04 124541](https://github.com/user-attachments/assets/b77a7f68-cf7d-4b0f-98d3-6af7e2212e38)
+
    3. Navigate to the project folder:    
   ![Screenshot 2025-02-04 124550](https://github.com/user-attachments/assets/8b527a6f-8f9f-4ec0-80de-6edb10a31372)
 
