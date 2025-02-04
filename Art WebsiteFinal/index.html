@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Art Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search art pieces...">
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to the Art Gallery</h2>
+            <p>Explore the world of art through our collection of stunning pieces.</p>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <p>Where Colors Dance and Dreams Come Alive</p>
+               <div class="art-grid">
+                <div class="art-card">
+                    <img src="https://i.pinimg.com/736x/f4/76/c8/f476c829853e16534c9b857cffd1f128.jpg" alt="Starry Night">
+                    <h3>Starry Night</h3> 
+                    <button class="like-btn">❤️ <span class="like-count">0</span></button> 
+                    <button class="share-btn" onclick="shareArt('Starry Night', 'https://i.pinimg.com/736x/f4/76/c8/f476c829853e16534c9b857cffd1f128.jpg')"> 🔗 Share </button>
+                    <button class="buy-btn">🛒 Buy Now</button>
+                </div>
+
+                <div class="art-card">
+                    <img src="https://i.pinimg.com/736x/70/35/32/70353260a0215383988cc14c75702f7f.jpg" alt="The Persistence of Memory">
+                    <h3>The Persistence of Memory</h3>  
+                    <button class="like-btn">❤️ <span class="like-count">0</span></button>
+                    <button class="share-btn" onclick="shareArt('The Persistence of Memory', 'https://i.pinimg.com/736x/70/35/32/70353260a0215383988cc14c75702f7f.jpg')"> 🔗 Share </button>
+                    <button class="buy-btn">🛒 Buy Now </button>
+                </div>
+
+        <div class="art-card">
+            <img src="https://i.pinimg.com/736x/56/da/c2/56dac2ea8413b887317738a0aa0c4f44.jpg" alt="Girl with a Pearl Earring">
+            <h3>Girl with a Pearl Earring</h3>  
+            <button class="like-btn">❤️ <span class="like-count">0</span></button>
+            <button class="share-btn" onclick="shareArt('Girl with a Pearl Earring', 'https://i.pinimg.com/736x/56/da/c2/56dac2ea8413b887317738a0aa0c4f44.jpg')"> 🔗 Share </button>
+            <button class="buy-btn">🛒 Buy Now </button>
+        </div>
+
+        <div class="art-card">
+            <img src="https://i.pinimg.com/736x/9d/81/5a/9d815a3544d83859fce595c3670033d7.jpg" alt="Paris">
+            <h3>Paris</h3>  
+            <button class="like-btn">❤️ <span class="like-count">0</span></button>
+            <button class="share-btn" onclick="shareArt('Paris', 'https://i.pinimg.com/736x/9d/81/5a/9d815a3544d83859fce595c3670033d7.jpg')"> 🔗 Share </button>
+            <button class="buy-btn">🛒 Buy Now </button>
+        </div>
+
+        <div class="art-card">
+            <img src="https://i.pinimg.com/736x/da/e8/17/dae817ab948804003463e97b6263929e.jpg" alt="Damayanti">
+            <h3>Damayanti</h3>  
+            <button class="like-btn">❤️ <span class="like-count">0</span></button>
+            <button class="share-btn" onclick="shareArt('Damayanti', 'https://i.pinimg.com/736x/da/e8/17/dae817ab948804003463e97b6263929e.jpg')"> 🔗 Share </button>
+            <button class="buy-btn">🛒 Buy Now </button>
+        </div>
+
+        <div class="art-card">
+            <img src="https://i.pinimg.com/736x/27/b1/fb/27b1fb6ee17dd644df6e8e87f2f5a80a.jpg" alt="Radha Krishna">
+            <h3>Radha Krishna</h3>  
+            <button class="like-btn">❤️ <span class="like-count">0</span></button>
+            <button class="share-btn" onclick="shareArt('Radha Krishna', 'https://i.pinimg.com/736x/27/b1/fb/27b1fb6ee17dd644df6e8e87f2f5a80a.jpg')"> 🔗 Share </button>
+            <button class="buy-btn">🛒 Buy Now </button>
+        </div>
+
+
+
+                <!-- Lightbox -->
+                <div id="lightbox" class="lightbox">
+                    <span class="close">&times;</span>
+                    <img class="lightbox-content" id="lightbox-img">
+                </div>
+
+
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a community of artists and art lovers dedicated to showcasing beautiful art pieces from around the world.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Art Gallery. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <button id="back-to-top" title="Go to top">↑</button>
+    
+
+</body>
+</html>
